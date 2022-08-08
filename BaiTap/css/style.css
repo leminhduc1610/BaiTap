@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+ol, ul, p{ padding: 0; margin: 0; list-style: none}
+a{ text-decoration: none}
+
+@font-face{
+	font-family: quantico; 
+	src: url("../Fonts/Quantico-Regular.ttf")
+}
+@font-face{
+	font-family: opensan-r; src: url("../Fonts/OpenSans-VariableFont_wdth,wght.ttf")
+}
+body, input, output{font-family: opensan-r}
+.bg-top{background-color: #eee}
+.top-left p{font-size: 14px; color: #000; line-height: 50px}
+.top-right ul li{padding: 0 10px;}
+.top-right ul li i{ color: #252525; line-height: 50px; font-size: 16px }
+@media screen and (max-width: 1399px){
+	
+}
+
+@media screen and (max-width: 1199px){
+	
+}
+
+@media screen and (max-width: 992px){
+	
+}
+
+@media screen and (max-width: 767px){
+	
+}
+
+@media screen and (max-width: 570px){
+	.top-left p{font-size: 12px}
+	.top-right ul li i{padding: 0 5px}
+}
+.w-20{width: 20%}
+.w-80{width: 80%}
+
+
+
+
