@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+ol, ul, p{ padding: 0; margin: 0; list-style: none}
+a{ text-decoration: none}
+
+@font-face{
+	font-family: quantico; 
+	src: url("../Fonts/Quantico-Regular.ttf")
+}
+@font-face{
+	font-family: opensan-r; src: url("../Fonts/OpenSans-VariableFont_wdth,wght.ttf")
+}
+
+body, input, output{font-family: opensan-r}
+.bg-top{background-color: #eee}
+.top-left p{font-size: 14px; color: #000; line-height: 50px}
+.top-right ul li{padding: 0 10px;}
+.top-right ul li i{ color: #252525; line-height: 50px; font-size: 16px }
+.w-20{width: 20%}
+.w-80{width: 80%}
+.w-100{width: 100%}
+#banner .carousel-caption{
+	left: 10%; top: 40%; text-align: left; width: 40%
+	
+}
+#banner .carousel-caption h2{color: #FF5151; font-family: quantico; text-transform: capitalize}
+#banner .carousel-caption h1{font-size: 40px; font-family: quantico; color: #1F2226; text-transform: capitalize}
+#banner .carousel-caption p{color: #333; font-size: 16px; line-height: 26px; padding-right: 200px}
+.btn-shopnow{width: 140px; height: 40px; border: 1px solid #000; font-size: 14px; color: #1F2226; background: none; text-transform: uppercase}
+.btn-play i{ font-size: 40px; color: #FF5151; line-height: 40px; padding-top: 20px}
+.btn-play{ color: #FF5151; font-size: 20px; font-weight: 600; text-transform: uppercase; line-height: 40px; }
+#banner .carousel-indicators [data-bs-target]{background-color: #FF5151; opacity: 1; width: 10px; height: 10px; border-radius: 5px; border: none}
+#banner .carousel-indicators .active{ background-color: #882828}
+@media screen and (max-width: 1399px){
+	#banner .carousel-caption{top: 20%; width: 70%}
+}
+
+@media screen and (max-width: 1199px){
+	#banner .carousel-caption{top: 10%}
+}
+
+@media screen and (max-width: 992px){
+	#banner .carousel-caption h1{font-size: 50px}
+	#banner .carousel-caption p{padding-right: 0px}
+	#banner .carousel-caption{top: 5%}
+}
+
+@media screen and (max-width: 767px){
+	
+}
+
+@media screen and (max-width: 570px){
+	.top-left p{font-size: 12px}
+	.top-right ul li i{padding: 0 5px}
+	#banner .carousel-caption h1{font-size: 30px}
+	#banner .carousel-caption h2{padding-right: 20px}
+	#banner .carousel-caption p{display: none}
+	#banner .carousel-caption {width: 90%;left: 20px; padding: 10px 0}
+}
+
+
+
